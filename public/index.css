@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+
+:root {
+	--green: #097725;
+	--white: #ffffff;
+	--lightGreen: #90ffa6;
+}
+
+
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.my-nav {
+	background: var(--green);
+}
+
+.nav-link {
+	color: var(--white);
+}
+
+.current {
+	color: var(--lightGreen);
+}
+
+.main {
+	padding: 20px;
+}
+.card {
+	border: 1px solid var(--color-three);
+	margin-bottom: 20px;
+	transition: border 0.1s, transform 0.3s;
+}
+
+.categories {
+	margin-top: 500px;
+}
